@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background: linear-gradient(to right, #b92b27, #1565c0);
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    transform: skewY(10deg);
+}
+
+.content{
+    height: 70vh;
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    width: 80%;
+    color: white;
+    margin: 30px 30px;
+    padding: 20px;
+    background: linear-gradient(to right, #8a2387, #e94057, #f27121);
+    display: flex;
+    box-shadow: 0px 0px 10px black;
+}
+
+.text{
+    width: 50%;
+    font-size: 20px;
+    font-weight: 900;
+    text-align: justify;
+}
+.shoe img{
+    top: 2%;
+    right: -10%;
+    height: 300px;
+    width: 700px;
+    position: absolute;
+    
+}
+.shoe{
+    width: 40%;
+    margin-left: 300px;
+    padding-top: 40px;
+}
+.shoe img:hover{
+    right: 0;
+    top: 15px;
+    height: 600px;
+    width: 900px;
+}
